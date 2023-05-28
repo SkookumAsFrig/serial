@@ -32,7 +32,7 @@ doc/html
 ipch
 Debug
 Release
-
+build
 CMakeLists.text.user
 CMakeCache.txt
 CMakeFiles
