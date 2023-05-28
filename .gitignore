@@ -13,7 +13,7 @@
 *.cfg
 *.out
 .svn
-build
+
 bin
 lib
 cpp
@@ -32,3 +32,15 @@ doc/html
 ipch
 Debug
 Release
+
+CMakeLists.text.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
