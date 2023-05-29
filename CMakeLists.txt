@@ -36,7 +36,7 @@ else()
     list(APPEND serial_SRCS src/impl/list_ports/list_ports_win.cc)
 endif()
 
-message(STATUS "This is cmake project name ${CMAKE_PROJECT_NAME}, project name ${PROJECT_NAME}, project source dir ${PROJECT_SOURCE_DIR}")
+# message(STATUS "This is cmake project name ${CMAKE_PROJECT_NAME}, project name ${PROJECT_NAME}, project source dir ${PROJECT_SOURCE_DIR}")
 
 ## Add serial library
 add_library(${PROJECT_NAME} ${serial_SRCS})
